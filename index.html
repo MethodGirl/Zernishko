@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Зёрнышко</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <section class="menu">
+      <div class="wrapper">
+        <div class="d-flex mb-3">
+          <div class="me-auto p-2">
+            <h2 class="menu-title">Меню</h2>
+          </div>
+          <div class="p-2">
+            <button type="button" class="btn btn-outline-primary switcher switcher-active drinks-button">
+              Кофе
+            </button>
+          </div>
+          <div class="p-2">
+            <button
+              type="button"
+              class="btn btn-outline-primary switcher desserts-button"
+            >
+              Десерты
+            </button>
+          </div>
+          <div class="p-2">
+            <button type="button" class="btn btn-outline-primary switcher snacks-button">
+              Закуски
+            </button>
+          </div>
+        </div>
+        <div class="catalog">
+          <div class="container text-center drinks-container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/White Cup With Cappuccino.F01.2k 1.png"
+                      alt="Капучино на миндальном молоке с кокосовым сиропом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">240₽</p>
+                      <p class="product__name">
+                        Капучино на миндальном молоке с кокосовым сиропом
+                      </p>
+                      <p class="product__measure">350 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Cup of Coffee.F01.2k 1.png"
+                      alt="Латте на кокосовом молоке с кленовым сиропом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">270₽</p>
+                      <p class="product__name">
+                        Латте на кокосовом молоке с кленовым сиропом
+                      </p>
+                      <p class="product__measure">350 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Coffee Cup.F09.2k 1.png"
+                      alt="Раф с карамельным сиропом и шоколадом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">360₽</p>
+                      <p class="product__name">
+                        Раф с карамельным сиропом и шоколадом
+                      </p>
+                      <p class="product__measure">250 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Coffee Cup.F01.2k 1.png"
+                      alt="Классический американо с зарядом бодрости"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">160₽</p>
+                      <p class="product__name">
+                        Классический американо с зарядом бодрости
+                      </p>
+                      <p class="product__measure">300 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Coffee Cup.F01.2k (1) 1.png"
+                      alt="Флет уайт с насыщенным вкусом эфиопского эспрессо"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">160₽</p>
+                      <p class="product__name">
+                        Флет уайт с насыщенным вкусом эфиопского эспрессо
+                      </p>
+                      <p class="product__measure">300 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Cup Of Coffee.F06.2k 1.png"
+                      alt="Латте на овсяном молоке с добавлением корицы"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">270₽</p>
+                      <p class="product__name">
+                        Латте на овсяном молоке с добавлением корицы
+                      </p>
+                      <p class="product__measure">300 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Large Coffee Cup.F09.2k 1.png"
+                      alt="Двойной эспрессо с высоким зарядом энергии"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">180₽</p>
+                      <p class="product__name">
+                        Двойной эспрессо с высоким зарядом энергии
+                      </p>
+                      <p class="product__measure">300 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/drinks/Large Coffee Cup.F09.2k (1) 1.png"
+                      alt="Капучино на соевом молоке с ореховым сиропом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">240₽</p>
+                      <p class="product__name">
+                        Капучино на соевом молоке с ореховым сиропом
+                      </p>
+                      <p class="product__measure">300 мл</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center desserts-container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Cinnamon Swirl Pastry.B10.2k 1.png"
+                      alt="Синабон с ароматной корицей и глазурью"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">240₽</p>
+                      <p class="product__name">
+                        Синабон с ароматной корицей и глазурью
+                      </p>
+                      <p class="product__measure">250 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Vanilla Creme Crown.B05.2k 1.png"
+                      alt="Воздушная датская слойка с нежным кремом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">270₽</p>
+                      <p class="product__name">
+                        Воздушная датская слойка с нежным кремом
+                      </p>
+                      <p class="product__measure">250 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Creme Brulee.B05.2k 1.png"
+                      alt="Нежный крем-брюле с ягодами и карамельной корочкой"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">360₽</p>
+                      <p class="product__name">
+                        Нежный крем-брюле с ягодами и карамельной корочкой
+                      </p>
+                      <p class="product__measure">150 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Round Snail Pastry.B14.2k 1.png"
+                      alt="Улитка с яблочно-лимонным джемом и изюмом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">270₽</p>
+                      <p class="product__name">
+                        Улитка с яблочно-лимонным джемом и изюмом
+                      </p>
+                      <p class="product__measure">250 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Chocolate Cake Piece.F03.2k 1.png"
+                      alt="Шоколадно-кофейный торт со вкусом какао"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">160₽</p>
+                      <p class="product__name">
+                        Шоколадно-кофейный торт с глубоким вкусом какао
+                      </p>
+                      <p class="product__measure">170 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Raspberry Chocolate Cake.G06.2k 1.png"
+                      alt="Шоколадная тарталетка с кремом и  малиной"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">180₽</p>
+                      <p class="product__name">
+                        Шоколадная тарталетка с кремом и малиной
+                      </p>
+                      <p class="product__measure">150 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Honey Cake.F03.2k 1.png"
+                      alt="Классический медовик со сливочным кремом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">240₽</p>
+                      <p class="product__name">
+                        Классический медовик со сливочным кремом
+                      </p>
+                      <p class="product__measure">250 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/desserts/Chocolate Cake Slice.E03.2k 1.png"
+                      alt="Торт с нежным кремом, корицей и шоколадом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">160₽</p>
+                      <p class="product__name">
+                        Торт с нежным кремом, корицей и шоколадом
+                      </p>
+                      <p class="product__measure">300 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center snacks-container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Almond Nuts.H03.2k 1.png"
+                      alt="Миндаль"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">240₽</p>
+                      <p class="product__name">
+                        Миндаль — идеальная закуска для перекуса
+                      </p>
+                      <p class="product__measure">200 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Cookies.H03.2k 1.png"
+                      alt="Классическое печенье с кусочками шоколада"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">360₽</p>
+                      <p class="product__name">
+                        Классическое печенье с кусочками шоколада
+                      </p>
+                      <p class="product__measure">250 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Onion Ring Chips.G03.2k 1.png"
+                      alt="Баранки с легкой солью"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">270₽</p>
+                      <p class="product__name">
+                        Баранки с легкой солью — отличное дополнение к кофе
+                      </p>
+                      <p class="product__measure">350 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Cookie.G10.2k 1.png"
+                      alt="Булочка с маком"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">160₽</p>
+                      <p class="product__name">
+                        Булочка с маком, покрытая нежной сахарной глазурью
+                      </p>
+                      <p class="product__measure">150 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Cashews.H03.2k 1.png"
+                      alt="Кешью"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">270₽</p>
+                      <p class="product__name">
+                        Свежий, хрустящий кешью — полезный перекус
+                      </p>
+                      <p class="product__measure">300 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Cookie with Chocolate Cream.B02.2k 1.png"
+                      alt="Мягкое печенье с начинкой из шоколада"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">160₽</p>
+                      <p class="product__name">
+                        Мягкое печенье с начинкой из шоколада
+                      </p>
+                      <p class="product__measure">150 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Pancakes Poured with Butter.H03.2k 1.png"
+                      alt="Панкейки с сладким медом и маслом"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">180₽</p>
+                      <p class="product__name">
+                        Нежные панкейки с сладким медом и маслом
+                      </p>
+                      <p class="product__measure">300 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+              <div class="col">
+                <a href="" class="products">
+                  <article class="product">
+                    <img
+                      src="./img/snacks/Samosa.H03.2k 1.png"
+                      alt="Треугольники с сырной начинкой"
+                      class="product__img"
+                    />
+                    <div class="product__description">
+                      <p class="product__price">240₽</p>
+                      <p class="product__name">
+                        Сытные треугольники с сырной начинкой
+                      </p>
+                      <p class="product__measure">250 гр</p>
+                    </div>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
