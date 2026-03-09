@@ -874,7 +874,7 @@ body {
   height: 14px;
   right: 30px;
   position: absolute;
-  background-image: url("/img/footer/footer-links__VK.svg");
+  background-image: url("../img/footer/footer-links__VK.svg");
 }
 
 .footer-socialmedia__insta::before {
@@ -883,5 +883,5 @@ body {
   height: 14px;
   right: 0px;
   position: absolute;
-  background-image: url("/img/footer/footer-links__INSTA.svg");
+  background-image: url("../img/footer/footer-links__INSTA.svg");
 }
